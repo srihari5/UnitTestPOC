@@ -28,7 +28,7 @@ jobs:
     - name: Test with pytest
       run: |
        cd pythonUnitDemo     
-       python setup.py test
+       pytest --cov=./ --cov-report=xml
     - name: Upload coverage
       shell: pwsh
       run: coverage report -m
