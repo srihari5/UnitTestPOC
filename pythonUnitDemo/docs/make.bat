@@ -47,6 +47,13 @@ if "%1" == "html" (
 	goto end
 )
 
+if "%1" == "pdf" (
+	%SPHINXBUILD% -b latex %ALLSPHINXOPTS% %BUILDDIR%/pdf
+	echo.
+	echo.Build finished. The HTML pages are in %BUILDDIR%/pdf.
+	goto end
+)
+
 if "%1" == "dirhtml" (
 	%SPHINXBUILD% -b dirhtml %ALLSPHINXOPTS% %BUILDDIR%/dirhtml
 	echo.
