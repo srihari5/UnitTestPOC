@@ -1,4 +1,4 @@
-.. image::https://img.shields.io/codecov/c/github/srihari5/UnitTestPOC?token=357cf048-9a0e-49db-96ce-51dbbd8d9030.svg
+.. image:: https://img.shields.io/codecov/c/github/srihari5/UnitTestPOC?token=357cf048-9a0e-49db-96ce-51dbbd8d9030.svg
   :alt: 15%
 
 ==============
