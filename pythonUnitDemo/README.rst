@@ -1,4 +1,4 @@
-.. image:: https://img.shields.io/codecov/c/github/srihari5/UnitTestPOC
+.. image:: https://img.shields.io/codecov/c/github/srihari5/UnitTestPOC/pythonUnitDemo
   :alt: 15%
 
 ==============
