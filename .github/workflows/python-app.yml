@@ -31,3 +31,7 @@ jobs:
        coverage run ./setup.py test
     - name: Upload coverage
       uses: codecov/codecov-action@v1
+      with:
+       token: ${{ secrets.UnitTestPOCCODECOV_TOKEN }} # not required for public repos
+       file: ./coverage.xml # optional
+       fail_ci_if_error: true # optional (default = false)
