@@ -1,6 +1,5 @@
-.. image:: https://img.shields.io/codecov/c/github/srihari5/UnitTestPOC/pythonUnitDemo
-  :alt: 15%
-
+.. image:: https://codecov.io/gh/srihari5/UnitTestPOC/branch/master/graph/badge.svg?token=7OY4PCYJ5N
+  :target: https://codecov.io/gh/srihari5/UnitTestPOC
 ==============
 pythonUnitDemo
 ==============
