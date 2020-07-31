@@ -67,7 +67,7 @@ def test_getholidays_status200BadEx(mocked_get,jsonholidaydata):
     mocked_get.return_value = Mock()
     mocked_get.return_value.status_code = 200
     mocked_get.return_value.json.return_value= jsonholidaydata
-    assert jsonholidaydata !=None    
+    assert jsonholidaydata != None    
 
 """
 Test case example with patch decorator for mock get method status_code 400 and retrun_value with jsonholidaydata
