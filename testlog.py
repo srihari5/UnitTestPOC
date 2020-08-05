@@ -26,3 +26,4 @@ try:
   c = a / b
 except Exception as e:
   logging.exception("Exception occurred")
+  

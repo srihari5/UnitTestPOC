@@ -27,7 +27,8 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi   
     - name: Test with pytest
       run: |     
-       coverage run ./pythonUnitDemo/setup.py test
+      cd pythonUnitDemo
+      coverage run ./setup.py test
     - name: Upload coverage
       uses: codecov/codecov-action@v1
       with:
