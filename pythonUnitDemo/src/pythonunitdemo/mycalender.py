@@ -28,6 +28,3 @@ def getholidays():
     if r.status_code == 200:
         return r.json()
     return None
-"""
-Sample Text
-"""
